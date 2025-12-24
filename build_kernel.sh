@@ -6,4 +6,5 @@ export ARCH=arm
 make clean && make mrproper
 clear
 make lineage_goyavewifi_defconfig
-make -j$(nproc)
+make -s V=0 -j$(nproc)
+cp arch/arm/boot/zImage /mnt/c/Users/murat/Downloads/Android\ Image\ Kitchen/split_img/boot.img-kernel

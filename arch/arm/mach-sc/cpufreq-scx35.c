@@ -77,10 +77,10 @@ struct cpufreq_conf *sprd_cpufreq_conf = NULL;
 
 static struct cpufreq_table_data sc8830t_cpufreq_table_data_es = {
         .freq_tbl = {
-		{0, 1536000},
-		{1, 1363200},
-		{2, 1300000},
-		{3, 1200000},
+		{0, 1560000},
+		{1, 1460000},
+		{2, 1340000},
+		{3, 1220000},
 		{4, 1190400},
 		{5, 1036800},
 		{6, 960000},
@@ -90,10 +90,10 @@ static struct cpufreq_table_data sc8830t_cpufreq_table_data_es = {
 		{10,CPUFREQ_TABLE_END},
         },
         .vddarm_mv = {
-		1085000,
-		1035000,
-		985000,
-		970000,
+		1125000,
+		1075000,
+		1075000,
+		990000,
 		955000,
 		940000,
 		925000,
